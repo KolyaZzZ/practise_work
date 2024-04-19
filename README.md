@@ -62,3 +62,12 @@
 ## refs/heads/main в зависимости от названия ветки). Если заглянуть в этот файл,
 ## можно увидеть хеш последнего коммита.
 
+### Статусы файлов
+
+## Жизненный цикл файла:
+# untracked
+# `git add` -> staged (+ tracked)
+# staged, modified (+ tracked)
+# `git commit` -> tracked
+# modified (+ tracked)
+
